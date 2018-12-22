@@ -8,8 +8,8 @@
 ${func_name}:
     stmfd sp!, {r4-r7, r9, lr}
 
-    ${op1}, r0, r0, r1
-    ${op2}, r0, r0, r1
-    ${op3}, r0, r0, r1
+    ${op1} r0, r0, r1
+    ${op2} r0, r0, r1
+    ${op3} r0, r0, r1
 
     ldmfd sp!, {r4-r7, r9, pc} 
