@@ -1,0 +1,11 @@
+{
+    "template" : "template/sample-template.S",
+    "output"   : "gen",
+    "auto_id"  : true,
+    "data" : {
+        "func_name" : "combination",
+        "op1" : [ "add", "sub", "mul"],
+        "op2" : [ "add", "sub", "mul"],
+        "op3" : [ "add", "sub", "mul"]
+    }
+}
