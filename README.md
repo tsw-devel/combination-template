@@ -14,11 +14,11 @@ $ pip install jinja2
 2. Prepare json data and template file.  
 I prepared the following sample.  
 * Template format: python Template strings  
-  - template.json  
-  - template/sample-template.S
+  - settings.json ... combination data sample
+  - template/sample-template.S ... template text sample
 * Template format: Jinja2  
-  - template.j2.json  
-  - template/sample-template.j2.S
+  - settings.j2.json ... combination data sample
+  - template/sample-template.j2.S ... template text sample
 
 3. Run combination-template.  
 ```sh
@@ -40,8 +40,6 @@ The required data is as follows.
 - data ... Combination data  
 - auto_id ... Include autoincrement ID in file name(option)  
 - format ... For jinja 2 format, please specify jinja2, j2.  
-The rule is just the above.  
-All data can be substitution data.
 
 # About the format of template
 The substitutions method follows python Template strings and Jinja2.  
