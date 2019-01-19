@@ -7,8 +7,7 @@ This software is released under the MIT License, see LICENSE file.
 
 1. Install dependent libraries.  
 ```sh
-$ pip install chardet
-$ pip install jinja2
+$ pip install -r requirements.txt
 ```
 
 2. Prepare json data and template file.  
